@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="Register.css">
+</head>
+
+<body>
+    <form onsubmit="return stopReloding()" class="main-div" method="post">
+        <div class="content-div">
+            <h1>Registration Form</h1>
+            <input type="text" placeholder="User Name" id="name">
+            <input type="email" name="" id="email" placeholder="Email">
+            <input type="number" name="" id="phone" placeholder="Phone">
+            <input type="date" name="" id="date">
+            <input type="password" placeholder="Password" id="password">
+            <input type="password" placeholder="Confirm Password" id="cpassword">
+            <br>
+            <button id="b" type="submit">Submit</button>
+            <p>Already Account<a href="login.html">Login</a></p>
+        </div>
+    </form>
+
+    <script>
+        function stopReloding() {
+            console.log("Hello Abahy...");
+            
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            const date = document.getElementById('date').value;
+            const password = document.getElementById('password').value;
+
+            console.log(name, email, phone, date, password);
+
+            localStorage.setItem("name", name);
+            localStorage.setItem("email", email);
+            localStorage.setItem("phone", phone);
+            localStorage.setItem("date", date);
+            localStorage.setItem("password", password);
+            return false;
+        }
+    </script>
+</body>
+
+</html>
