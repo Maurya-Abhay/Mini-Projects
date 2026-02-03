@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+}
+
+.main-div{
+    height: 100svh;
+    width: 86svw;
+    margin-left: 7svw;
+    margin-right: 7vw;
+}
+
+.main-div .div-1{
+    height: 20svh;
+    width: 86svw;
+    display: flex;
+    align-items: center;
+}
+
+.div-1 h1{
+    font-size: 350%;
+}
+
+.div-1 h2{
+    font-size: 200%;
+    margin-left: 93vh;
+}
+
+.main-div .div-2{
+    height: 56svh;
+    width: 86svw;
+    display: flex;
+    margin-top: 2svh;
+    margin-bottom: 2svh;
+}
+
+.div-2 .div-right{
+    height: 100%;
+    width: 43svw;
+    display: flex;
+}
+
+.div-2 .div-left{
+    height: 100%;
+    width: 48svw;
+}
+
+.div-right .under-left{
+    width: 47%;
+    height: 100%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.div-right .under-right{
+    width: 50%;
+    height: 100%;
+}
+
+.under-right .div-top{
+    height: 48%;
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+.under-right .div-button{
+    height: 49%;
+    width: 100%;
+}
+
+.main-div .div-3{
+    height: 20svh;
+    width: 86svw;
+    display: flex;
+    gap: 1%;
+}
+
+.div-3 .option1{
+    width: 24.5%;
+    display: flex;
+    align-items: center;
+}
+
+.option1 .logo{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.option1 .div-text{
+    height: 80%;
+    width: 63%;
+    margin-left: 8%;
+}
+
+.div-text p{
+    margin-bottom: 2%;
+}
+
+.div-text h4{
+    margin-bottom: 2%;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
