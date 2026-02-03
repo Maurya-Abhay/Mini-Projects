@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100svh;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main-div{
+    background-color: rgb(30, 30, 30);
+    height: 70%;
+    width: 22%;
+    border-radius: 8px;
+}
+
+.main-div .picture-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 23%;
+    width: 100%;
+}
+
+.picture-div .pic-div{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    display: flex;
+}
+
+.main-div .text-div{
+    height: 6%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.text-div p{
+    font-size: larger;
+}
+
+.main-div .button-div{
+    height: 59%;
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgb(30, 30, 30);
+}
+
+.button-div button{
+    height: 14%;
+    width: 100%;
+    margin-top: 5%;
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(43, 41, 41);
+    border: none;
+    cursor: pointer;
+}
+
+.button-div button a{
+    color: aliceblue;
+    text-decoration: none;
+    /* font-size: 10px; */
+}
+
+.button-div button:hover{
+    background-color: rgb(53, 54, 53);
+}
+
+@media only screen and (max-width: 600px) {
+    .main-div {
+        height: 70%;
+        width: 80%;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .main-div {
+        height: 100%;
+        width: 60%;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .main-div {
+        height: 70%;
+        width: 100%;
+    }
+  }
